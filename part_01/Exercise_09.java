@@ -9,4 +9,16 @@ package part_01;
  */
 public class Exercise_09 {
 
+    public static void main(String[] args) {
+
+        // A = L * W
+        double area = 2.4 * 6.4;
+
+        //P=2(l+w)
+        double perimeter = 2 * (2.4 + 6.4);
+
+        System.out.println(area);
+        System.out.println(perimeter);
+    }
+
 }

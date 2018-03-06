@@ -10,4 +10,16 @@ package part_01;
 
 public class Exercise_10 {
 
+    public static void main(String[] args) {
+        // speed = distance / time
+
+        double time =  30.5;
+        double miles =  12 * .621;
+        double total = miles / time;
+
+
+
+        System.out.println(total);
+
+    }
 }

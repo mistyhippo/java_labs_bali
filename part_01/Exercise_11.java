@@ -15,4 +15,40 @@ package part_01;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+        //Seconds in a year = 31557600
+        double secondsInYear = 31557600;
+
+        // born every 6 seconds;
+        int b;
+
+        //dies every 12 seconds;
+        int d;
+
+        //immigrates every 40 seconds;
+        int i;
+
+        //population = 380123456;
+        double population = 380123456;
+
+        for (b = 0; b <= 380123456; b+=6) {
+
+            population++;
+
+        }
+
+        for (d = 0; d <= 380123456; d+=12){
+
+            population--;
+        }
+
+        for (i = 0; i <=380123456; i+=40){
+
+            population++;
+
+        }
+        System.out.println(population);
+    }
+
 }
