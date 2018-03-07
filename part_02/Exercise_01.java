@@ -16,5 +16,20 @@ import java.util.Scanner;
 
 public class Exercise_01 {
 
+    public static void main(String[] args) {
+
+        Scanner outpost =new Scanner(System.in);
+
+        System.out.println("Enter the temperature:");
+        double temperature=outpost.nextDouble();
+
+        double fahrenheit = 9 * (temperature/5) + 32;
+
+        System.out.println(temperature + " " + "degrees celsius =" + " " + fahrenheit + " "+ "degrees fahrenheit");
+
+
+
+    }
+
 
 }

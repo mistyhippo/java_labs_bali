@@ -14,6 +14,24 @@ import java.util.Scanner;
  */
 public class Exercise_07 {
 
+    public static void main(String[] args) {
+
+        //days = minutes ÷ 1,440
+        //minutes in year = 60 * 24 * 365
+
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Enter a number between one and 1,000,000,000: ");
+        int minutes = scanner.nextInt();
+        int year = 60 * 24 * 365;
+        int years = minutes * year;
+        int days = minutes/ 1440;
+        System.out.println("Years equals:" + years);
+        System.out.println("Days equals:" + days);
+
+    }
+
 }
+
+
 
 
