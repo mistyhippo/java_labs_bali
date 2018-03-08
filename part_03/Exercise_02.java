@@ -9,3 +9,31 @@ package part_03;
 
  */
 
+class Exercise_02{
+
+    public static void main(String[] args) {
+
+        Exercise_02 obj1 = new Exercise_02();
+//      int num1 =  obj1.multiply(2 ,3);
+//       int num2 =  obj1.divide(3, 6);
+//        System.out.println(num1);
+//        System.out.println(num2);
+
+        int num1 = multiply(2,3);
+
+
+    }
+
+   public static int multiply(int a, int b ){
+
+        return  a * b;
+    }
+
+    public static int divide (int a, int b){
+
+        return a / b;
+
+    }
+
+
+}
