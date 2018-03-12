@@ -1,49 +1,118 @@
 Answer the following questions:
 
 1) What is an array?
+An array is used to store a collection of data of variables of the same type.
 
 2) What the code required to create (instantiate) a String array with size 10 named "cats"?
 
+String cats [] = new String [10];
+
 3) What is a multidimensional array?
+An array of arrays.
 
 4) What is the code required to create (instantiate) a 2-dimensional int array that is 6 high and 6 wide named "scores"?
 
+int scores [] [] = new int [6] [6];
+
 5) Using code, how do you retrieve a String that is the 10th item in a traditional array named dogs?
+
+System.out.println("10th item in dogs array: "
+                           + dogs[9]);
 
 6) What is an ArrayIndexOutOfBoundsException?
 
+Array boundaries are strictly enforced. This exception will terminate program if you mess this up
+
 7) Using one line of code, demonstrate how to retrieve the second to the last item from a int array.
+
+int array.length-1;
 
 8) What is the maximum allowable size of an array in Java?
 
+java uses int as the default for arrays. the max size is the max size for integers
+
 9) What is a bubble sort?
 
+Its a sorting algorithm for arrays
+
 10) How does a bubble sort work?
+
+It uses a process of repeated comparing element of arrays with each other and sending larger ones in one direction
+and smaller ones in another
 
 11) When might you use an irregular array? What is a good example of an irregular array?
 
 12) Demonstrate how to iterate through an array, printing each value, using a for loop.
 
+
+        int[] years = new int[2018];
+
+        for (int i = 1; i < 2018; i++) {
+
+            years[i] = i;
+            System.out.println(years[i]);
+
+
 13) Demonstrate how to iterate through an array, printing each value, using a while loop.
+
+                int x =0;
+                int [] years;
+                    while(x < years.length){
+                        System.out.println("x is : " + x);
+                        x++;
+                    }
 
 14) What is a queue?
 
 15) What are the two primary operations that a queue performs?
+. It is an ordered list of objects with its use limited to inserting elements at the
+   end of list and deleting elements from the start of list
 
 16) What is a stack?
+It is a collection that is based on the last in first out (LIFO) principle
 
 17) What differentiates stacks and queues?
 
+In a stack, an object is pushed on top of the collection during insertion operation.
+In a queue, new object is inserted at the end.
+An object is removed from a stack from the top. In queue, object is removed from the beginning.
+
 18) When would you use an enhanced for loop?
+
+You use these when you want to iterate over an array or arraylist
 
 19) What is "The Collections Framework"? What classes does it include?
 
+Java provides Collection Framework which defines several classes and interfaces to represent a
+group of objects as a single unit.
+
+Collection interface
+Map interface
+
 20) How do you iterate over a two-dimensional array? Demonstrate using psuedo code.
+  int arr[][] = { {2,7,9},{3,6,1},{7,4,2} };
+
+  for (int i=0; i< 3 ; i++)
+          {
+              for (int j=0; j < 3 ; j++)
+                  System.out.print(arr[i][j] + " ");
+
+              System.out.println();
+          }
+
 
 21) What is a String?
 
+A sequence of characters
+
 22) What are a few common methods for operating on Strings?
 
+.length()  //returns the length of a string
+.toLowerCase() //converts to lower case
+.toUpperCase() // convers to upper case
+
 23) What does "Strings are immutable" mean?
+
+Strings can't be changed once they are created
 
 24) Using the CLI, how do you invoke a Java application and provide two parameters to the main method?

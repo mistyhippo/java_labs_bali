@@ -15,3 +15,36 @@ import java.util.Scanner;
  Output can be on one line or many lines. However you like.
 
  */
+class Exercise_01{
+
+    public static void main(String[] args) {
+        // create scanner to receive input
+        Scanner input = new Scanner(System.in);
+
+        //syntax to create array and populate it with size. size is immutable
+        int[] dogs = new int[10];
+
+        // create a for loop to populate array with user input
+        for(int i = 0 ; i < 10; i++){
+
+            System.out.println("Enter a number:");
+                  dogs[i] = input.nextInt();
+        }
+        //to get the 2nd index "i" needs to start at the second spot of the array which is "1"
+        // count up by 2
+        for(int i = 1; i < 10;i+=2){
+
+            System.out.println(dogs[i]);
+
+        }
+        //to get the 9th integer you start "i" at the 8th index.
+        //to reverse order decrement by 2
+        for(int i =8; i >= 0; i-=2){
+
+            System.out.println(dogs[i]);
+        }
+    }
+
+
+
+}

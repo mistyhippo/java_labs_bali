@@ -14,10 +14,56 @@ class Exercise_04 {
         };
         // uncomment the lines below when your methods are ready
 //        System.out.println(getMaxVal(dataArray));
-//        System.out.println(getMinVal(dataArray));
+        System.out.println(getMinVal(dataArray));
+
+        System.out.println(getMaxVal(dataArray));
     }
 
     // write a method called getMaxVal that takes in a 2D array and iterates through the array to determine the max value in array
+
+    static int getMaxVal(int[][] dataArray) {
+
+        int max = 0;
+
+        for (int i = 0; i < dataArray.length; i++) {
+
+            for (int j = 0; j < dataArray[i].length; j++) {
+
+                if (dataArray[i][j] > max) {
+
+                    max = dataArray[i][j];
+
+                }
+
+            }
+
+        }
+
+        return max;
+
+    }
+
+    static int getMinVal(int[][] dataArray){
+
+        int min = 0;
+
+        for (int i = 0; i < dataArray.length; i++){
+
+                for(int j = 0; j < dataArray[i].length; j++){
+
+                    if(dataArray[i][j] < min){
+
+                        min = dataArray[i][j];
+                    }
+
+
+                }
+        }
+
+        return min;
+
+    }
+
 
     // write a method called getMinVal that takes in a 2D array and iterates through the array to determine the min value in array
 
