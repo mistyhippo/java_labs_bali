@@ -12,9 +12,6 @@ public class Exercise_05 {
 
     public static void main(String[] strings) {
 
-        String[] arrayName = {"Chicken", "Noodles", "Beef", "Rice", "Nasi Goreng"};
-
-
         int[]  numArray = {2, 4, 6 , 8, 10};
 
         int sum = 0;
@@ -25,8 +22,11 @@ public class Exercise_05 {
         }
 
         System.out.println(sum);
+        System.out.println();
 
-            // declare string variable food and attach to array
+        String[] arrayName = {"Chicken", "Noodles", "Beef", "Rice", "Nasi Goreng"};
+
+        // declare string variable food and attach to array
         for (String food : arrayName) {
 
             System.out.println(food);

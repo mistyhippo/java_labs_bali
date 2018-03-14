@@ -19,7 +19,8 @@ class Exercise_04 {
         System.out.println(getMaxVal(dataArray));
     }
 
-    // write a method called getMaxVal that takes in a 2D array and iterates through the array to determine the max value in array
+    // write a method called getMaxVal that takes in a 2D array and iterates through the array
+    // to determine the max value in array
 
     static int getMaxVal(int[][] dataArray) {
 

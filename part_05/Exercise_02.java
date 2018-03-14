@@ -9,3 +9,6 @@ package part_05;
  * flow of execution and the varying state of each private variable. You can name these classes whatever you want.
  *
  */
+
+// Exercise two done within Exercise 1
+

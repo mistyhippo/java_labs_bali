@@ -31,3 +31,4 @@ public class Exercise_06 {                                //Class
                 (n < 2) ? n : fibonacci(n-1) + fibonacci(n-2); // if n is less than 2 print itself/ else (n-1) + (n-2)
     }
 }
+
