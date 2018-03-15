@@ -1,6 +1,11 @@
 1) What is a Java package?
+a package provides a way to name a collection of classes. Second, a package participates in Java’s access control
+mechanism.
 
 2) What is the CLASSPATH variable all about?
+
+you can specify a directory path or paths by setting the
+CLASSPATH environmental variable
 
 3) What does the package structure mirror?
 
