@@ -1,22 +1,63 @@
 1) What is Java inheritance?
 
+Using inheritance, you can create a general
+class that defines traits common to a set of related items. This class can then be inherited by
+other, more specific classes, each adding those things that are unique to it.
+
 2) How does inheritance work?
+
+Java supports inheritance by allowing one class to incorporate another class into its declaration.
+This is done by using the extends keyword. Thus, the subclass adds to (extends) the superclass.
 
 3) What are some advantages that inheritance provides?
 
+For Method Overriding (so runtime polymorphism can be achieved).
+For Code Reusability.
+
 4) What does the "super" keyword do?
+
+The super keyword in java is a reference variable that is used to refer parent class objects.
 
 5) In what order are constructors called when there are multiple subclasses?
 
+constructors are executed in order of derivation
+
 6) What does it mean when a method is overridden?
+
+ Overriding is a feature that allows a subclass or child class to provide a specific
+ implementation of a method that is already provided by one of its super-classes or parent classes.
+ When a method in a subclass has the same name, same parameters or signature and same return type(or sub-type)
+ as a method in its super-class, then the method in the subclass is said to override the method in the super-class.
 
 7) How do overridden methods support polymorphism?
 
+Dynamic method dispatch is the mechanism by which a
+call to an overridden method is resolved at run time rather than compile time. Dynamic method
+dispatch is important because this is how Java implements run-time polymorphism.
+
 8) What is the difference between an overloaded method and an overridden method?
+
+Overloading happens at compile-time while Overriding happens at runtime:
+The binding of overloaded method call to its definition has happens at compile-time however
+binding of overridden method call to its definition happens at runtime.
+
+The most basic difference is that overloading is being done in the same class while for overriding
+base and child classes are required. Overriding is all about giving a specific implementation to the
+inherited method of parent class.
 
 9) What is dynamic method dispatch?
 
+Dynamic method dispatch is the mechanism by which a
+call to an overridden method is resolved at run time rather than compile time. Dynamic method
+dispatch is important because this is how Java implements run-time polymorphism.
+
 10) What does the "final" keyword do?
 
+Final Variables cannot be changed
+Final Methods Prevent Overriding
+
 11) Are classes in Java are a subclass of what super class?
+
+The top-most class, the class from which all other classes are derived,
+ is the Object class defined in java.lang. Object is the root of a hierarchy of classes
 
